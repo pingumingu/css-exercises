@@ -11,6 +11,8 @@ gap: something px (puts a gap between children in pixels)
 max-width: 200px; (restricts element to a particular width)
 flex-shrink:0; (makes it so element can't shrink)
 flex: 1 (makes item fill up available space)
+flex-wrap: wrap (flexes content on multiple rows)
+flex-basis: 20px (suggested width/height along primary axis)
 
 Useful non flex stuff:
 align-text: center;
@@ -18,6 +20,7 @@ margin-bottom: 20px; (make margin on the bottom only)
 font-weight: bold; 
 font-size: 18px;
 list-style-type: none; (removes bullet points from list)
+min-height: 100vh;
 height: 100vh; (makes container height same as viewport, so that flex can work with column direction)
 a {
   color: #666;
